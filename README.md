@@ -1,6 +1,6 @@
-# student_sentiment_analysis
+# Student_sentiment_analysis
 The project aims at diving into the world of engineering education to understand what students think. We're not just listening to what they say, we're analyzing their feedback using a technique called sentiment analysis. The objective of the project is to uncover the positive and negative feelings students have on engineering education based on their feedbacks using nlp and machine learning techniques.
-1.	We created a google form through which we collected data from students such as their subjects, no of hours studying, gender, attendance, etc.
+1.	We created a google form through which we collected data from students of VIT-AP University such as their subjects, no of hours studying, gender, attendance, etc.
 2.	The google form is then converted to csv format for analysis.
 3.	First step includes importing necessary python libraries, data cleaning, data pre-processing such as tokenization, stemming, lemmatization and stopwords removal.
 4.	We then calculated sentiment scores, subjectivity scores and labels to categorize the feedback as positive, negative or neutral.
