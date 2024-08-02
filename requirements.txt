@@ -1,7 +1,6 @@
 nltk==3.8.1
 pandas==2.2.2
 scikit-learn==1.2.2
-re==2.2.1
 textblob==0.15.3
 joblib==1.2.0
 streamlit==1.31.1
