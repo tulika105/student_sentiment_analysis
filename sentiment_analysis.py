@@ -15,7 +15,7 @@ def predict_sentiment(text):
 
 # Streamlit app layout
 st.title('Student Sentiment Analysis App ')
-image_path = "C:/Users/91981/Pictures/Screenshots/Screenshot 2024-04-10 034613.png"
+image_path = "C:/Users/91981/sentiment image.png"
 image = Image.open(image_path)
 st.image(image, use_column_width=True)
 
