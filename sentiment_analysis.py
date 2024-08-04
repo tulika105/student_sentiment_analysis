@@ -16,6 +16,10 @@ def predict_sentiment(text):
 # Streamlit app layout
 st.title('Student Sentiment Analysis App ')
 image_path = "C:/Users/91981/sentiment image.png"
+if not os.path.isfile(image_path):
+    print(f"Error: The file {image_path} does not exist.")
+else:
+    image = Image.open(image_path)
 image = Image.open(image_path)
 st.image(image, use_column_width=True)
 
