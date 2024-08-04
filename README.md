@@ -17,3 +17,5 @@ The project aims at diving into the world of engineering education to understand
 - nltk
 - textblob
 - re
+# Model Deployment
+Open this link to get sentiment prediction: https://studentsentimentanalysis-7zofmguguw8ppu7znomzzh.streamlit.app/
