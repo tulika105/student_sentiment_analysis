@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 import joblib
 from PIL import Image
 from sklearn.feature_extraction.text import TfidfVectorizer
